@@ -1,7 +1,8 @@
 // Resuelve el siguiente problema matemático.
 // Reemplaza el valor de null por el correspondiente.
 
-const nuevoModulo = 21 % 5 === 1;
+const nuevoModulo = 21 % 5 === null;
 console.log(21 % 5);
-console.log(nuevoModulo)
+console.log(nuevoModulo);
+
 module.exports = nuevoModulo;
